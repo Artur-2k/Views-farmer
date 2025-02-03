@@ -11,6 +11,7 @@ import sys # input and exit
 
 # Options
 options = Options()
+options.add_argument('--headless') # no UI
 options.set_preference("dom.webdriver.enable", False) # detection of automation
 options.set_preference("useAutomationExtension", False)
 
